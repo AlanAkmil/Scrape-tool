@@ -1,0 +1,19 @@
+{
+  "name": "scraper-tool",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0",
+    "puppeteer-core": "^23.0.0",
+    "@sparticuz/chromium": "^123.0.1"
+  }
+}
